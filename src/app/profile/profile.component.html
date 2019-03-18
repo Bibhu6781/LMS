@@ -1,0 +1,25 @@
+<div class="container login-container">
+  <div class="row">
+    <div class="col-md-6 login-form-2">
+      <h3>ADD PROFILE</h3>
+      <form #profileForm='ngForm' (ngSubmit)="addProfile(profileForm.value)">
+        <span class="form-group">
+          <input type="text" class="form-control" placeholder="Name *" name="name" ngModel />
+        </span>
+        <span class="form-group">
+          <input type="email" class="form-control" placeholder="Email *" name="email" ngModel />
+        </span>
+        <span class="form-group">
+          <input type="text" class="form-control" placeholder="Address *" name="address" ngModel />
+        </span>
+        <span class="form-group">
+          <input type="number" class="form-control" placeholder="Contact No *" name="contactNo" ngModel />
+        </span>
+        <div class="form-group">
+          <input type="submit" class="btnSubmit" value="ADD" style="margin-left: 120px;margin-top: 40px" />
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

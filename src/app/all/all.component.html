@@ -1,0 +1,20 @@
+<!-- <ul class="list-group" *ngFor="let user of users">
+  <li class="list-group-item list-group-item-primary">{{user}}</li>
+</ul> -->
+
+<table class="table table-success table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>Bibhu</td>
+        <td>Sahu</td>
+        <td>{{user}}</td>
+      </tr>
+    </tbody>
+  </table>

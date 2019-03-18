@@ -1,0 +1,63 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ #lower-footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.left-text
+{
+color:white;
+}
+
+.menu
+{
+padding: 5px 0 5px 0;
+}
+
+.menu li
+{
+display:inline-block;
+padding:0 15px 0 15px;
+border-left:solid 1px #fff;
+}
+
+.menu li a
+{
+display:inline-block;
+padding:0 15px 0 15px;
+}
+
+.menu li:first-child
+{
+border-left:none;
+}
+
+.menu li a
+{
+color:white;
+}
+
+.menu li a:hover
+{
+color:rgba(12, 59, 97, 0.692);
+}
+
+.pad
+{
+padding-top: 12px;
+}
